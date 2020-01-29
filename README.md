@@ -1,4 +1,4 @@
-# Bitscrolls
+# BitScrolls
 
 A MMORPG made in the Godot Engine
 
