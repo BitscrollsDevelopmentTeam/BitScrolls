@@ -16,8 +16,15 @@ _global_script_class_icons={
 [application]
 
 config/name="Bitscrolls"
+run/main_scene="res://src/MainMenu/MainMenu.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=1280
+window/size/height=720
 
 [rendering]
 
+environment/default_clear_color=Color( 0.133333, 0.317647, 0.576471, 1 )
 environment/default_environment="res://default_env.tres"
