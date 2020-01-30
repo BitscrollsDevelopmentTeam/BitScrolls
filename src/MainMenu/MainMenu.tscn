@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://src/MainMenu/fonts/TitleFont.tres" type="DynamicFont" id=1]
 [ext_resource path="res://src/MainMenu/Buttons/PlayButton.tscn" type="PackedScene" id=2]
 [ext_resource path="res://src/MainMenu/Buttons/OptionsButton.tscn" type="PackedScene" id=3]
+[ext_resource path="res://src/MainMenu/fonts/VersionFont.tres" type="DynamicFont" id=4]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -31,25 +32,37 @@ align = 1
 valign = 1
 
 [node name="CenterRow" type="HBoxContainer" parent="Menu"]
+editor/display_folded = true
 margin_top = 104.0
 margin_right = 1040.0
-margin_bottom = 560.0
+margin_bottom = 506.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
 [node name="Buttons" type="VBoxContainer" parent="Menu/CenterRow"]
+editor/display_folded = true
 margin_right = 1040.0
-margin_bottom = 456.0
+margin_bottom = 402.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 alignment = 1
 
 [node name="PlayButton" parent="Menu/CenterRow/Buttons" instance=ExtResource( 2 )]
-margin_top = 156.0
+margin_top = 129.0
 margin_right = 1040.0
-margin_bottom = 226.0
+margin_bottom = 199.0
 
 [node name="OptionsButton" parent="Menu/CenterRow/Buttons" instance=ExtResource( 3 )]
-margin_top = 230.0
+margin_top = 203.0
 margin_right = 1040.0
-margin_bottom = 300.0
+margin_bottom = 273.0
+
+[node name="Version" type="Label" parent="Menu"]
+margin_top = 510.0
+margin_right = 1040.0
+margin_bottom = 560.0
+rect_min_size = Vector2( 0, 50 )
+custom_fonts/font = ExtResource( 4 )
+text = "v0.0.0.1"
+align = 1
+valign = 2
