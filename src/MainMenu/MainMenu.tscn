@@ -10,11 +10,12 @@
 [node name="MainMenu" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 1.61065
-margin_top = 0.805359
-margin_right = 1.6106
-margin_bottom = 0.805359
+margin_left = 0.805351
+margin_right = 0.805298
 script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Menu" type="VBoxContainer" parent="."]
 anchor_right = 1.0
@@ -23,6 +24,9 @@ margin_left = 120.0
 margin_top = 80.0
 margin_right = -120.0
 margin_bottom = -80.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Title" type="Label" parent="Menu"]
 margin_right = 1040.0
@@ -72,7 +76,7 @@ margin_right = 1040.0
 margin_bottom = 560.0
 rect_min_size = Vector2( 0, 50 )
 custom_fonts/font = ExtResource( 6 )
-text = "v0.0.3"
+text = "v0.0.31"
 align = 1
 valign = 2
 [connection signal="pressed" from="Menu/ExitButton" to="." method="_on_ExitButton_pressed"]

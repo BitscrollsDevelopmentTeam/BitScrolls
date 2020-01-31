@@ -17,3 +17,6 @@ custom_fonts/font = SubResource( 1 )
 text = "remove me when
 you're designing
 this level."
+__meta__ = {
+"_edit_use_anchors_": false
+}
