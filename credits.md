@@ -2,7 +2,10 @@
 
 ## Developers
 
-
+1. Alex
+2. Jack
+3. Rehatbir
+4. El
 
 ## Art
 
