@@ -70,7 +70,7 @@ margin_right = 1040.0
 margin_bottom = 560.0
 rect_min_size = Vector2( 0, 50 )
 custom_fonts/font = ExtResource( 6 )
-text = "v0.0.1"
+text = "v0.0.3"
 align = 1
 valign = 2
 [connection signal="pressed" from="Menu/ExitButton" to="." method="_on_ExitButton_pressed"]
