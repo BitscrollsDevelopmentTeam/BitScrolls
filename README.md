@@ -18,4 +18,4 @@ pressing CTRL/CMD + B.
 
 ## For any queries and questions...
 
-Please contact `info.bitscrolls@gmail.com`. Thank You for playing out game! :D
+Please contact `info.bitscrolls@gmail.com`. Thank You for playing our game! :D
