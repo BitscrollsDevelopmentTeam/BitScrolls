@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://src/OptionsMenu/fonts/OptionButtonFont.tres" type="DynamicFont" id=1]
+
+[node name="OptionTemplate" type="HBoxContainer"]
+
+[node name="OptionName" type="Label" parent="."]
+margin_right = 1000.0
+margin_bottom = 100.0
+rect_min_size = Vector2( 1000, 100 )
+custom_fonts/font = ExtResource( 1 )
+text = "Option"
+valign = 1
+
+[node name="OptionButton" type="CheckButton" parent="."]
+margin_left = 1004.0
+margin_right = 1080.0
+margin_bottom = 100.0
