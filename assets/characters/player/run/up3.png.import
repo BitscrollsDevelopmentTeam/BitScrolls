@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/up3.png-6652e0d84c6c89f97d103ef319a42e0e.stex"
+path="res://.import/up3.png-6af2b6b1d5961209957e147bca366a64.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/characters/player/run/up3.png"
-dest_files=[ "res://.import/up3.png-6652e0d84c6c89f97d103ef319a42e0e.stex" ]
+source_file="res://assets/characters/player/walk/up3.png"
+dest_files=[ "res://.import/up3.png-6af2b6b1d5961209957e147bca366a64.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

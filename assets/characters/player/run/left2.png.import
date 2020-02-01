@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/left2.png-ecdc22319da7b5d51d0da38754c96424.stex"
+path="res://.import/left2.png-80d5350185b376f2b08e6d14a60c425b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/characters/player/run/left2.png"
-dest_files=[ "res://.import/left2.png-ecdc22319da7b5d51d0da38754c96424.stex" ]
+source_file="res://assets/characters/player/walk/left2.png"
+dest_files=[ "res://.import/left2.png-80d5350185b376f2b08e6d14a60c425b.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

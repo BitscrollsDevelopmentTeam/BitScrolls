@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/up2.png-16aa9af5815dd92d6af7796914c91fc6.stex"
+path="res://.import/up2.png-fe0c2252d3d67773e2ef782b155bdc8a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/characters/player/run/up2.png"
-dest_files=[ "res://.import/up2.png-16aa9af5815dd92d6af7796914c91fc6.stex" ]
+source_file="res://assets/characters/player/walk/up2.png"
+dest_files=[ "res://.import/up2.png-fe0c2252d3d67773e2ef782b155bdc8a.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
