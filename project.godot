@@ -24,6 +24,13 @@ config/icon="res://icon.png"
 window/size/width=1280
 window/size/height=720
 
+[layer_names]
+
+2d_physics/layer_1="player"
+2d_physics/layer_2="npc"
+2d_physics/layer_3="structures"
+2d_physics/layer_4="nature"
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
