@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=2]
-
-[ext_resource path="res://src/MainMenu/Buttons/ButtonTemplate.tscn" type="PackedScene" id=1]
-
-[node name="PlayButton" index="0" instance=ExtResource( 1 )]
-scene_to_load = "res://src/Levels/World.tscn"
-
-[node name="Label" parent="." index="0"]
-text = "Play"

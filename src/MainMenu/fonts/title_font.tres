@@ -3,7 +3,7 @@
 [ext_resource path="res://assets/fonts/PressStart2P-Regular.ttf" type="DynamicFontData" id=1]
 
 [resource]
-size = 40
-outline_size = 5
-outline_color = Color( 0, 0, 0, 1 )
+size = 50
+outline_size = 3
+outline_color = Color( 0.345098, 0.643137, 0.498039, 1 )
 font_data = ExtResource( 1 )
