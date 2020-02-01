@@ -7,6 +7,7 @@
 margin_left = -1.0
 margin_right = 335.0
 margin_bottom = 87.0
+rect_min_size = Vector2( 336, 87 )
 custom_styles/normal = ExtResource( 1 )
 custom_fonts/font = ExtResource( 2 )
 text = "Button"

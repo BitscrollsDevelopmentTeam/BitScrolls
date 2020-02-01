@@ -1,19 +1,10 @@
 [gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://assets/tilesets/overworld.tres" type="TileSet" id=1]
-<<<<<<< HEAD
 [ext_resource path="res://src/Actors/Player.tscn" type="PackedScene" id=2]
-=======
 
-[sub_resource type="GDScript" id=1]
-script/source = "extends Node2D
-
-onready var anim = $AnimationPlayer
-
-"
->>>>>>> 24146fa9490a2544aa99a752327f8ec339c56da7
-
-[sub_resource type="Animation" id=2]
+[sub_resource type="Animation" id=1]
+resource_name = "FadeIn"
 length = 3.0
 tracks/0/type = "value"
 tracks/0/path = NodePath(".:modulate")
@@ -29,17 +20,8 @@ tracks/0/keys = {
 }
 
 [node name="World" type="Node2D"]
-<<<<<<< HEAD
 
 [node name="nature" type="TileMap" parent="."]
-=======
-modulate = Color( 0, 0, 0, 1 )
-script = SubResource( 1 )
-
-[node name="TileMaps" type="Node2D" parent="."]
-
-[node name="nature" type="TileMap" parent="TileMaps"]
->>>>>>> 24146fa9490a2544aa99a752327f8ec339c56da7
 scale = Vector2( 2, 2 )
 tile_set = ExtResource( 1 )
 cell_size = Vector2( 16, 16 )
@@ -62,4 +44,4 @@ tile_data = PoolIntArray( 65545, 2, 0, 65553, 2, 0, 65561, 2, 0, 65569, 2, 0, 98
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 autoplay = "FadeIn"
-anims/FadeIn = SubResource( 2 )
+anims/FadeIn = SubResource( 1 )

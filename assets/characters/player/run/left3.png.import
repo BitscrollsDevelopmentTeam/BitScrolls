@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/left3.png-0064479b4a64d3d7d47fe7f73a959c1d.stex"
+path="res://.import/left3.png-3109e7b797a40a0ded1e1695d37d2bd5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/characters/player/walk/left3.png"
-dest_files=[ "res://.import/left3.png-0064479b4a64d3d7d47fe7f73a959c1d.stex" ]
+source_file="res://assets/characters/player/run/left3.png"
+dest_files=[ "res://.import/left3.png-3109e7b797a40a0ded1e1695d37d2bd5.stex" ]
 
 [params]
 

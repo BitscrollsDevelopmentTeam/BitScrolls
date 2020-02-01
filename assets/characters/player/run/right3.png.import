@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/right3.png-acce08a8401417f511556781a5235780.stex"
+path="res://.import/right3.png-e9b4b990c65bc0ee17b8faeb361c675c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/characters/player/walk/right3.png"
-dest_files=[ "res://.import/right3.png-acce08a8401417f511556781a5235780.stex" ]
+source_file="res://assets/characters/player/run/right3.png"
+dest_files=[ "res://.import/right3.png-e9b4b990c65bc0ee17b8faeb361c675c.stex" ]
 
 [params]
 
