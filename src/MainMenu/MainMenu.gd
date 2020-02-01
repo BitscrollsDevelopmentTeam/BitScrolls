@@ -1,8 +1,12 @@
 extends Control
 
 onready var fade = $Fade
+onready var anim = $Fade/AnimationPlayer
 
 func _ready():
+	fade.show()
+	anim.play("FadeIn")
+	
 	for button in $Menu/CenterRow/Buttons.get_children():
 		button.connect("pressed", self, "_on_Button_pressed", [button.scene_to_load])
 		
