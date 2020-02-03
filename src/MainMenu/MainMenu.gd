@@ -10,4 +10,4 @@ func _on_OptionsButton_pressed() -> void:
 
 
 func _on_ExitButton_pressed() -> void:
-	get_tree().quit()
+	get_node("ExitScreen").visible = true
