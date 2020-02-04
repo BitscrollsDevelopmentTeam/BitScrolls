@@ -6,7 +6,7 @@
 [ext_resource path="res://src/MainMenu/fonts/title_font.tres" type="DynamicFont" id=4]
 [ext_resource path="res://src/MainMenu/ExitScreen.tscn" type="PackedScene" id=5]
 
-[sub_resource type="Animation" id=4]
+[sub_resource type="Animation" id=1]
 resource_name = "scroll"
 length = 10.0
 loop = true
@@ -67,7 +67,7 @@ tile_data = PoolIntArray( 65563, 2, 0, 65569, 2, 0, 65575, 2, 0, 131123, 2, 0, 1
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Background"]
 autoplay = "scroll"
 playback_speed = 0.1
-anims/scroll = SubResource( 4 )
+anims/scroll = SubResource( 1 )
 
 [node name="HBoxContainer" type="HBoxContainer" parent="."]
 anchor_right = 1.0
