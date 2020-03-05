@@ -1,68 +1,68 @@
 [gd_scene load_steps=20 format=2]
 
 [ext_resource path="res://src/Actors/Player.gd" type="Script" id=1]
-[ext_resource path="res://assets/characters/player/run/up0.png" type="Texture" id=2]
-[ext_resource path="res://assets/characters/player/run/up1.png" type="Texture" id=3]
-[ext_resource path="res://assets/characters/player/run/up2.png" type="Texture" id=4]
-[ext_resource path="res://assets/characters/player/run/up3.png" type="Texture" id=5]
-[ext_resource path="res://assets/characters/player/run/right0.png" type="Texture" id=6]
-[ext_resource path="res://assets/characters/player/run/left0.png" type="Texture" id=7]
-[ext_resource path="res://assets/characters/player/run/right1.png" type="Texture" id=8]
-[ext_resource path="res://assets/characters/player/run/right2.png" type="Texture" id=9]
-[ext_resource path="res://assets/characters/player/run/right3.png" type="Texture" id=10]
-[ext_resource path="res://assets/characters/player/run/down0.png" type="Texture" id=11]
-[ext_resource path="res://assets/characters/player/run/down1.png" type="Texture" id=12]
-[ext_resource path="res://assets/characters/player/run/down2.png" type="Texture" id=13]
-[ext_resource path="res://assets/characters/player/run/down3.png" type="Texture" id=14]
-[ext_resource path="res://assets/characters/player/run/left1.png" type="Texture" id=15]
-[ext_resource path="res://assets/characters/player/run/left2.png" type="Texture" id=16]
-[ext_resource path="res://assets/characters/player/run/left3.png" type="Texture" id=17]
+[ext_resource path="res://assets/characters/player/run/down0.png" type="Texture" id=2]
+[ext_resource path="res://assets/characters/player/run/down1.png" type="Texture" id=3]
+[ext_resource path="res://assets/characters/player/run/down2.png" type="Texture" id=4]
+[ext_resource path="res://assets/characters/player/run/down3.png" type="Texture" id=5]
+[ext_resource path="res://assets/characters/player/run/left0.png" type="Texture" id=6]
+[ext_resource path="res://assets/characters/player/run/left1.png" type="Texture" id=7]
+[ext_resource path="res://assets/characters/player/run/left2.png" type="Texture" id=8]
+[ext_resource path="res://assets/characters/player/run/left3.png" type="Texture" id=9]
+[ext_resource path="res://assets/characters/player/run/right0.png" type="Texture" id=10]
+[ext_resource path="res://assets/characters/player/run/right1.png" type="Texture" id=11]
+[ext_resource path="res://assets/characters/player/run/right2.png" type="Texture" id=12]
+[ext_resource path="res://assets/characters/player/run/right3.png" type="Texture" id=13]
+[ext_resource path="res://assets/characters/player/run/up0.png" type="Texture" id=14]
+[ext_resource path="res://assets/characters/player/run/up1.png" type="Texture" id=15]
+[ext_resource path="res://assets/characters/player/run/up2.png" type="Texture" id=16]
+[ext_resource path="res://assets/characters/player/run/up3.png" type="Texture" id=17]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
 "frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ) ],
 "loop": true,
-"name": "run up",
+"name": "run down",
 "speed": 10.0
 }, {
-"frames": [ ExtResource( 6 ) ],
-"loop": false,
-"name": "idle right",
-"speed": 0.0
+"frames": [ ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "run left",
+"speed": 10.0
 }, {
 "frames": [ ExtResource( 2 ) ],
-"loop": false,
-"name": "idle up",
-"speed": 0.0
-}, {
-"frames": [ ExtResource( 7 ) ],
-"loop": false,
-"name": "idle left",
-"speed": 0.0
-}, {
-"frames": [ ExtResource( 6 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ) ],
-"loop": true,
-"name": "run right",
-"speed": 10.0
-}, {
-"frames": [ ExtResource( 11 ) ],
 "loop": false,
 "name": "idle down",
 "speed": 0.0
 }, {
-"frames": [ ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ) ],
+"frames": [ ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ) ],
 "loop": true,
-"name": "run down",
+"name": "run right",
 "speed": 10.0
 }, {
-"frames": [ ExtResource( 7 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ) ],
+"frames": [ ExtResource( 6 ) ],
+"loop": false,
+"name": "idle left",
+"speed": 0.0
+}, {
+"frames": [ ExtResource( 14 ) ],
+"loop": false,
+"name": "idle up",
+"speed": 0.0
+}, {
+"frames": [ ExtResource( 10 ) ],
+"loop": false,
+"name": "idle right",
+"speed": 0.0
+}, {
+"frames": [ ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ) ],
 "loop": true,
-"name": "run left",
+"name": "run up",
 "speed": 10.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 21, 26.6999 )
+extents = Vector2( 21, 23.862 )
 
 [node name="Player" type="KinematicBody2D"]
 collision_mask = 14
@@ -74,5 +74,5 @@ frames = SubResource( 1 )
 animation = "idle down"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 0, 5.201 )
+position = Vector2( 0, 9.717 )
 shape = SubResource( 2 )
